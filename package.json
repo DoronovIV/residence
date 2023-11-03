@@ -49,6 +49,7 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "ng-let": "^16.0.2",
     "prettier": "^3.0.3",
+    "ts-keycode-enum": "^1.0.6",
     "typescript": "~5.1.3"
   }
 }

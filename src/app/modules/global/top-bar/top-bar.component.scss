@@ -3,7 +3,7 @@
 
 .container {
   position: absolute;
-  left: 10%;
+  left: calc(10% - 3px);
 
   width: 100%;
   height: 20%;

@@ -13,11 +13,8 @@
     "^@app",
     "^[./]"
   ],
-  "importOrderParserPlugins": [
-    "typescript",
-    "decorators-legacy",
-    "classProperties"
-  ],
+  "importOrderParserPlugins": ["typescript", "decorators-legacy", "classProperties"],
   "importOrderSeparation": true,
-  "importOrderSortSpecifiers": true
+  "importOrderSortSpecifiers": true,
+  "plugins": ["@trivago/prettier-plugin-sort-imports"]
 }

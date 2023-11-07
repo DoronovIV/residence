@@ -1,6 +1,16 @@
+@use 'sass:map';
+@import 'colors';
+
 .container {
+  position: absolute;
+
   width: 10%;
   height: 50%;
 
-  background-color: cyan;
+  border-bottom: 1px solid map.get($colors, red);
+  border-right: 1px solid map.get($colors, red);
+  border-radius: 2px;
+
+  display: flex;
+  flex-direction: column;
 }

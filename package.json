@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "npx ng serve",
+    "start": "npx ng serve --open",
     "build": "npx ng build",
     "build:production": "npx ng build --configuration production",
     "watch": "npx ng build --watch --configuration development",
@@ -49,6 +49,8 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "ng-let": "^16.0.2",
     "prettier": "^3.0.3",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
     "ts-keycode-enum": "^1.0.6",
     "typescript": "~5.1.3"
   }

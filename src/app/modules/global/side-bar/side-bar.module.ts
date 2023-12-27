@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
-import { ButtonModule } from '../../ui/button/button.module';
+import { ButtonModule } from '../../ui/button';
 import { SideBarComponent } from './side-bar.component';
 
 @NgModule({

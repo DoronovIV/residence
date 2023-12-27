@@ -4,4 +4,4 @@ export const ColorAdapter = {
   green: '#1ca639',
   yellow: '#c88f35',
   violet: '#cc47f8',
-};
+} as const;

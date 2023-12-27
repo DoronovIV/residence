@@ -1,7 +1,3 @@
-import { BaseControl } from 'src/app/model/ui/base-control';
-import { Color } from 'src/app/model/ui/color.type';
-import { ControlClass } from 'src/app/model/ui/control-class.type';
-
 import {
   AfterViewInit,
   ChangeDetectionStrategy,
@@ -11,6 +7,9 @@ import {
   ViewChild,
 } from '@angular/core';
 
+import { BaseControl } from '../../../model/ui/base-control';
+import { Color } from '../../../model/ui/color.type';
+import { ControlClass } from '../../../model/ui/control-class.type';
 import { ButtonOptions } from './types/button-options.type';
 
 @Component({

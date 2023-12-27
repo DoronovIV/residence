@@ -1,8 +1,8 @@
-import { TaskType } from './task-type.enum';
+import { TaskCategory } from './task-category.type';
 
 export interface Task {
   id: number;
   index: number;
-  type: TaskType;
+  type: TaskCategory;
   title: string;
 }

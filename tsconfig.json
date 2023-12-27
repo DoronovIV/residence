@@ -2,6 +2,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "esModuleInterop": true,
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
@@ -27,6 +28,5 @@
     "strictInputAccessModifiers": true,
     "strictTemplates": true
   },
-  "lib": ["es2018", "dom"],
-  "esModuleInterop": true
+  "lib": ["es2018", "dom"]
 }

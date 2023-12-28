@@ -13,7 +13,7 @@
     "lint": "npx ng lint",
     "format": "npx prettier --write ./src",
     "prepare": "husky install",
-    "validate": "rmdir /s .angular & rmdir /s node_modules & npm i & npm run build"
+    "validate": "rmdir /S /Q .angular & rmdir /S /Q node_modules & npm i & npm run build"
   },
   "private": true,
   "dependencies": {

@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ButtonComponent } from '../../ui/button';
+import { ButtonComponent } from '@ui/components/button';
 import { SideBarComponent } from './side-bar.component';
 
 describe('Side-bar component', () => {

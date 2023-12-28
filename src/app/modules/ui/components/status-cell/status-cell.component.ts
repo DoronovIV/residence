@@ -1,6 +1,6 @@
-import { ChangeDetectionStrategy, Component, ElementRef, ViewChild } from '@angular/core';
+import { BaseControl } from '@model/ui/base-control';
 
-import { BaseControl } from '../../../model/ui/base-control';
+import { ChangeDetectionStrategy, Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-status-cell',
